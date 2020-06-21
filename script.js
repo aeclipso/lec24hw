@@ -2,9 +2,9 @@ let red = document.getElementById("red");
 let green = document.getElementById("green");
 let blue = document.getElementById("blue");
 let bg = document.getElementById("bg");
-let redval;
-let greenval;
-let blueval;
+let redval = 0;
+let greenval = 0;
+let blueval = 0;
 
 red.addEventListener("change", function (){
     redval = this.value;
