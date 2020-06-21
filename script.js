@@ -7,15 +7,16 @@ let greenval;
 let blueval;
 
 red.addEventListener("change", function (){
-
     redval = this.value;
     bg.style.backgroundColor = "rgb(" + redval + "," + greenval + "," + blueval + ")";
 });
 green.addEventListener("change", function (){
     greenval = this.value;
+    bg.style.backgroundColor = "rgb(" + redval + "," + greenval + "," + blueval + ")";
 });
 blue.addEventListener("change", function (){
     blueval = this.value;
+    bg.style.backgroundColor = "rgb(" + redval + "," + greenval + "," + blueval + ")";
 });
 
 bg.onclick = function () {
